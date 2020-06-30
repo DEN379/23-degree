@@ -1,2 +1,2 @@
 # 23-degree
-![ScreenShot](screenshot.jpg)
+![ScreenShot](23 degree.png)
