@@ -1,2 +1,2 @@
 # 23-degree
-![ScreenShot](23 degree.png)
+![ScreenShot](23-degree.png)
