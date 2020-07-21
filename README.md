@@ -1,5 +1,5 @@
 # 23-degree
 
-Landing with this technologies: Bootstrap, Flexbox, Grid
+Adaptive landing with this technologies: Bootstrap, Flexbox, Grid
 
 ![](23%20degree.png)
