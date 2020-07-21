@@ -1,0 +1,179 @@
+@media (max-width: 1199px){
+
+    .main__logo span{
+        font-size: 18px;
+    }
+    .main__title{
+        font-size: 28px;
+    }
+    .main__title span{
+        font-size: 28px;
+    }
+    .main__subtitle{
+        font-size: 14px;  
+    }
+
+    .offers__photo img{
+        width: 100%;
+    }
+
+    .offers__text p{
+        font-size: 14px;
+    }
+    .portfolio__photo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+}
+
+@media (max-width: 992px){
+    .main__phone-number{
+        font-size: 10px;
+    }
+    .main__phone-number span{
+        font-size: 16px;
+    }
+
+    .offers__text .offers__submit{
+        display: none;
+    }
+    .price__right .main__submit{
+        font-size: 14px;
+    }
+
+    .btn-group button{
+        line-height: 16px;
+        font-size: 12px;
+    }
+    .portfolio__photo{
+        column-gap: 12px;
+    }
+
+    .team__member img{
+        width: 70%;
+    }
+
+     .blog__item img{
+        object-fit: contain;
+    }
+    .footer__pages-item{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px){
+    .main__contacts{
+        display: none;
+    }
+    .main__subtitle{
+        display: none;
+    }
+    .main__title{
+        margin-top: 48px;
+        margin-bottom: 38px;
+    }
+    .main__input{
+        font-size: 12px;
+    }
+    .offers__text h1 {
+        font-size: 18px;
+    }
+    .price__color .container .row{
+        display: flex;
+        justify-content: center;
+    }
+    .price__right .main__submit{
+        margin-left: -54px;
+    }
+
+    .portfolio__photo{
+        display: flex;
+        flex-flow: row wrap;
+         justify-content: center;
+    }
+    .portfolio__photo img{
+        width: 46%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+    .company__logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .team__member-name{
+        font-size: 16px;
+    }
+    .team__member-posotion{
+        font-size: 12px;
+    }
+    .team__quote-title{
+        font-size: 22px;
+    }
+    .team__quote-body{
+        font-size: 16px;
+    }
+
+    .contact__submit .offers__submit{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:576px){
+    .main__color .container .main__forms{
+        display: none;
+    }
+    .main__color .container .main__submit{
+        margin: 150px auto;
+    }
+    .offers__second{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container:nth-child(2) .row{
+        margin-top: 30px;
+    }
+    .price__right .main__submit {
+        margin-left: -84px;
+    }
+    .btn-group button{
+        padding: 3px 7px;
+        font-size: 10px;
+    }
+    .portfolio__photo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .portfolio__photo img{
+        width: 100%;
+    }
+    .better__bg .container .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+    .better__item p{
+        font-size: 12px;
+    }
+    .process__item{
+        font-size: 16px;
+    }
+
+    .main__forms{
+        width: 100%;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .main__input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer__social{
+        margin-top: 30px;
+    }
+}
